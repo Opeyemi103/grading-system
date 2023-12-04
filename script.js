@@ -36,7 +36,6 @@
 function checkValue() {
     if(num.value >=0 && num.value < 40) {
         var Song = new Audio("../Audios/satani.mp3");
-        console.log("F");
         show.innerHTML = "F"
         Song.play()
     }
@@ -60,7 +59,3 @@ function checkValue() {
         Song.play()
     }
 }
-
-
-// var song = "audios/kiss daniel"
-// var SongToPlay = new Audio(song )
