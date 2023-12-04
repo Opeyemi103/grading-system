@@ -36,13 +36,13 @@
 function checkValue() {
     if(num.value >=0 && num.value < 40) {
         var Song = new Audio("../Audios/satani.mp3");
-        show.innerHTML = "F"
+        show.innerHTML = "You Failed"
         Song.play()
     }
     else if(num.value >=40 && num.value < 45) {
         var Song = new Audio("../Audios/gbani.mp3");
-        console.log("E");
         show.innerHTML = "E"
+        Song.play()
     }
     else if(num.value >=45 && num.value < 50) {
         console.log("D");
