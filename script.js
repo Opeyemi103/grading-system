@@ -32,30 +32,37 @@
 // }
 
 
-
+  var myaudio = document.getElementById('myaudio');
 function checkValue() {
     if(num.value >=0 && num.value < 40) {
-        var Song = new Audio("../Audios/satani.mp3");
+        myaudio.src ="../Audios/AUD-20200621-WA0012.m4a"
         show.innerHTML = "You Failed"
-        Song.play()
+        myaudio.play()
     }
     else if(num.value >=40 && num.value < 45) {
-        var Song = new Audio("../Audios/gbani.mp3");
-        show.innerHTML = "E"
-        Song.play()
+        myaudio.src = "../Audios/AUD-20200714-WA0013.m4a";
+        show.innerHTML = "Pass"
+        myaudio.play()
     }
     else if(num.value >=45 && num.value < 50) {
-        console.log("D");
+        show.innerHTML = "Fair"
+        myaudio.src ="../Audios/AUD-20200617-WA0066.mp3"
+        myaudio.play()    
     }
     else if(num.value >=50 && num.value < 60) {
-        console.log("C");
+        show.innerHTML = "Better"
+        myaudio.src ="../Audios/AUD-20200616-WA0019.mp3"
+        myaudio.play()
     }
     else if(num.value >=60 && num.value < 70 ) {
-        console.log("B");
+        show.innerHTML = "Good"
+        // myaudio.src ="../Audios/AUD-20200621-WA0012.m4a"
+        myaudio.src = "../Audios/satani.mp3";
+        myaudio.play()
     }
     else if(num.value >=70 && num.value <=100) {
-        console.log("A");
-        var Song = new Audio("../Audios/champion.mp3");
-        Song.play()
+        show.innerHTML ="Excellent";
+        myaudio.src ="../Audios/champion.mp3";
+        myaudio.play()
     }
 }
