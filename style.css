@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./image1.jpg);
+}
+.form-floating{
+    border: 3px solid rebeccapurple;
+    margin-top: 150px;
+}
+.check{
+    margin-left: 300px;
+    color: yellowgreen;
+}
+.music{
+    margin-left: 200px;
+    color: black;
+
+}
