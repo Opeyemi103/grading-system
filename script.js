@@ -40,7 +40,7 @@ function checkValue() {
         Song.play()
     }
     else if(num.value >=40 && num.value < 45) {
-        var Song = new Audio("../Audios/satani.mp3");
+        var Song = new Audio("../Audios/gbani.mp3");
         console.log("E");
         show.innerHTML = "E"
     }
